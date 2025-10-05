@@ -41,3 +41,23 @@ required_absolute_increase = 25.5 / 50000  # 0.051%
 
 # Required relative improvement
 mde_relative = (0.051 / 12.9) * 100  # 0.4% relative improvement
+
+
+# Recommendations for Future Tests
+MDE Selection Framework
+- Calculate break-even MDE based on development costs
+- Add strategic buffer (2-5× break-even for good ROI)
+- Consider practical constraints (traffic volume, test duration)
+- Choose achievable MDE that balances business needs with feasibility
+
+# For This Specific Test
+- Recommended MDE: 2.0% relative improvement
+- Required Sample Size: 31,200 total visitors
+- Estimated Duration: 2-3 weeks (at current traffic levels)
+
+# Conclusion
+The missing MDE analysis was the root cause of this test's failure. By not defining what business impact we needed to detect, we designed a test that was mathematically incapable of answering the business question.
+
+Key Insight: Always start with "What improvement would make this change worthwhile?" before asking "Is this result statistically significant?"
+
+
