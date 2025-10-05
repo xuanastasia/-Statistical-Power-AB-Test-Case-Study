@@ -42,6 +42,7 @@ required_absolute_increase = 25.5 / 50000  # 0.051%
 # Required relative improvement
 mde_relative = (0.051 / 12.9) * 100  # 0.4% relative improvement
 
+```
 
 # Recommendations for Future Tests
 MDE Selection Framework
