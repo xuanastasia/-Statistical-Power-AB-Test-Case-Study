@@ -65,13 +65,13 @@ print(f"Required sample size: {required_n:.0f}")
 ├── data/
 │   └── README.md                 # Data source attribution
 ├── analysis/
-│   ├── ab_test_analysis.ipynb    # Main analysis notebook
-│   └── statistical_power_calc.py # Power calculation utilities
+│   └──ab_test_analysis.ipynb    # Main analysis notebook
+│   
 ├── docs/
 │   ├── business_recommendation.md # Executive summary
 │   └── methodology_improvements.md # Lessons learned
 ├── assets/
-│   └── results_dashboard.png     # Analysis visualization
+│   └── analysis board.jpg     # Analysis visualization
 └── README.md
 
 
